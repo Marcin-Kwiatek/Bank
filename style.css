@@ -1,3 +1,33 @@
 body{
+    background-color:#003300;
+    color:white;
+}
+#container{
     background-color: black;
+    width: 1000px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    font-size: 36px;
+    text-align: center;
+    padding: 10px;
+}
+#main{
+    width: 500px;
+    background-color:green;
+    min-height: 500px;
+    float: left;
+}
+#transactionHistory{
+    width: 500px;
+    background-color:green;
+    min-height: 500px;
+    float: left;
+}
+.accountBalance{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;    
 }
