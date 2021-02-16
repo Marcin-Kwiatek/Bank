@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,34 @@
     <title>Bank</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="container">
 
         <div id="logo">BANK</div>
         <div id="main">
             <div class="accountBalance">ACCOUNT BALANCE: 1000zł</div>
+            <div class="buttonContainer">
+                <div class="bankingOperation">
+                    <button class="button">WPŁATA</button>
+                    <button class="button">WYPŁATA</button>
+                </div>
+                <div class="amount">
+                    <button class="button"></button>
+                </div>
+            </div>
         </div>
-        <div id="transactionHistory"></div>
+        <div id="transactionHistory">
+            <div class="transactionLogo">Wpłaty:</div>
+            <div class="transaction"></div>
+            <div class="transactionLogo">Wypłaty</div>
+            <div class="transaction"></div>
+
+        </div>
         <div style="clear: both;"></div>
     </div>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>

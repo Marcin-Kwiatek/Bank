@@ -5,7 +5,7 @@ body{
 #container{
     background-color: black;
     width: 1000px;
-    min-height: 500px;
+    min-height: 400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -17,17 +17,53 @@ body{
 #main{
     width: 500px;
     background-color:green;
-    min-height: 500px;
+    min-height: 400px;
     float: left;
 }
 #transactionHistory{
     width: 500px;
     background-color:green;
-    min-height: 500px;
+    min-height: 400px;
     float: left;
 }
 .accountBalance{
     text-align: center;
     font-size: 40px;
     padding: 30px;    
+}
+.buttonContainer{
+    width: 400px;
+    min-height: 200px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button{
+    width: 120px;
+    min-height: 60px;
+    margin: 10px;
+}
+.bankingOperation{
+    float: left;
+    width: 150px;
+    min-height: 200px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.amount{
+    float: left;
+    width: 190px;
+    min-height: 140px;
+    padding-top: 60px;
+    padding-left: 30px;
+    text-align: center;
+}
+.transaction{
+    width:480px;
+    min-height: 160px;
+    background-color: black;
+}
+.transactionLogo{
+    text-align: center;
+    font-size: 30px;
 }
